@@ -14,12 +14,12 @@
         <Style TargetType="Border" >
             <Setter Property="Control.BorderBrush" Value="Black"/>
             <Setter Property="Control.BorderThickness" Value="2"/>
-            <Setter Property="Control.Margin" Value="1,0,1,2"/>
+            <Setter Property="Control.Margin" Value="2,0,1,2"/>
         </Style>
         <Style x:Key="textStyle">
             <Setter Property="Control.FontSize" Value="30"/>
             <Setter Property="Control.FontWeight" Value="Regular"/>
-            <Setter Property="Control.FontFamily" Value="Arial"/>
+            <Setter Property="Control.FontFamily" Value="Calibri"/>
             <Setter Property="Control.VerticalAlignment" Value="Center"/>
             <Setter Property="Control.HorizontalAlignment" Value="Center"/>
         </Style>
@@ -127,7 +127,7 @@
             Name="Oem3"
             Grid.Row="4"
             Grid.Column="0"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                 Style="{StaticResource textStyle}"
                     Grid.Row="4">`</TextBlock>
@@ -137,7 +137,7 @@
             Name="D1"
             Grid.Row="4"
             Grid.Column="1"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                     Style="{StaticResource textStyle}"
                     Grid.Row="4">1</TextBlock>
@@ -147,7 +147,7 @@
             Grid.Row="4"
             Grid.Column="2"
             Background="Coral"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                     Style="{StaticResource textStyle}"
                     Grid.Row="4">2</TextBlock>
@@ -157,7 +157,7 @@
             Name="D3"
             Grid.Row="4"
             Grid.Column="3"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                     Style="{StaticResource textStyle}"
                     Grid.Row="4">3</TextBlock>
@@ -167,7 +167,7 @@
             Grid.Row="4"
             Grid.Column="4"
             Background="YellowGreen"
-            CornerRadius="5"
+            CornerRadius="10"
                 >
             <TextBlock 
                     Style="{StaticResource textStyle}"
@@ -178,7 +178,7 @@
             Background="Aqua"
             Grid.Row="4"
             Grid.Column="5"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                     Style="{StaticResource textStyle}"
                     Grid.Row="4">5</TextBlock>
@@ -188,7 +188,7 @@
             Grid.Row="4"
             Background="Aqua"
             Grid.Column="6"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                 Style="{StaticResource textStyle}"
                 Grid.Row="4">6</TextBlock>
@@ -198,7 +198,7 @@
             Grid.Row="4"
             Grid.Column="7"
             Background="LightPink"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                     Style="{StaticResource textStyle}"
                     Grid.Row="4">7</TextBlock>
@@ -208,7 +208,7 @@
             Grid.Row="4"
             Grid.Column="8"
             Background="LightPink"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                     Style="{StaticResource textStyle}"
                     Grid.Row="4">8</TextBlock>
@@ -218,7 +218,7 @@
             Grid.Row="4"
             Grid.Column="9"
             Background="Coral"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                     Style="{StaticResource textStyle}"
                     Grid.Row="4">9</TextBlock>
@@ -228,7 +228,7 @@
             Grid.Row="4"
             Grid.Column="10"
             Background="Yellow"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -239,7 +239,7 @@
             Grid.Row="4"
             Grid.Column="11"
             Background="YellowGreen"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -250,7 +250,7 @@
             Grid.Row="4"
             Grid.Column="12"
             Background="YellowGreen"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -262,7 +262,7 @@
             Grid.Column="13"
             Grid.ColumnSpan="2"
             Background="DarkGray"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
@@ -273,7 +273,7 @@
             Grid.Column="0" 
             Grid.Row="4"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,52.4,51.6,0.2" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            CornerRadius="10" Margin="1,52.4,51.6,0.2" Grid.ColumnSpan="3" Grid.RowSpan="2">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
@@ -281,10 +281,10 @@
         </Border>
         <Border
             Name="Q"
-            Grid.Column="1" 
+            Grid.Column="2" 
             Grid.Row="5"
             Background="Coral"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -292,10 +292,10 @@
         </Border>
         <Border
             Name="W"
-            Grid.Column="2" 
+            Grid.Column="3" 
             Grid.Row="5"
             Background="Yellow"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -303,120 +303,120 @@
         </Border>
         <Border
             Name="E"
-            Grid.Column="3" 
+            Grid.Column="4" 
             Grid.Row="5"
             Background="YellowGreen"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">e</TextBlock>
         </Border>
         <Border
-            Grid.Column="4" 
+            Grid.Column="5" 
             Grid.Row="5"
             Name="R"
             Background="Aqua"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">r</TextBlock>
         </Border>
         <Border
-            Grid.Column="5" 
+            Grid.Column="6" 
             Grid.Row="5"
             Name="T"
             Background="Aqua"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">t</TextBlock>
         </Border>
         <Border
-            Grid.Column="6" 
+            Grid.Column="7" 
             Grid.Row="5"
             Name="Y"
             Background="LightPink"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">y</TextBlock>
         </Border>
         <Border
-            Grid.Column="7" 
+            Grid.Column="8" 
             Grid.Row="5"
             Name="U"
             Background="LightPink"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">u</TextBlock>
         </Border>
         <Border
-            Grid.Column="8" 
+            Grid.Column="9" 
             Grid.Row="5"
             Name="I"
             Background="Coral"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">i</TextBlock>
         </Border>
         <Border
-            Grid.Column="9" 
+            Grid.Column="10" 
             Grid.Row="5"
             Name="O"
             Background="Yellow"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">o</TextBlock>
         </Border>
         <Border
-            Grid.Column="10" 
+            Grid.Column="11" 
             Grid.Row="5"
             Name="P"
             Background="YellowGreen"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">p</TextBlock>
         </Border>
         <Border
-            Grid.Column="11" 
+            Grid.Column="12" 
             Grid.Row="5"
             Name="OemOpenBrackets"
             Background="YellowGreen"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">[</TextBlock>
         </Border>
         <Border
-            Grid.Column="12" 
+            Grid.Column="13" 
             Grid.Row="5"
             Name="Oem6"
             Background="YellowGreen"
-            CornerRadius="5">
+            CornerRadius="10">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">]</TextBlock>
         </Border>
         <Border
-            Grid.Column="13" 
+            Grid.Column="14" 
             Grid.Row="5"
             Name="Oem5"
             Background="YellowGreen"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -428,7 +428,7 @@
             Name="Capital"
             Grid.Row="6"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
@@ -439,7 +439,7 @@
             Grid.Column="2" 
             Grid.Row="6"
             Background="Coral"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -450,7 +450,7 @@
             Grid.Column="3" 
             Grid.Row="6"
             Background="Yellow"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -461,7 +461,7 @@
             Grid.Column="4" 
             Grid.Row="6"
             Background="YellowGreen"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -472,7 +472,7 @@
             Grid.Column="5" 
             Grid.Row="6"
             Background="Aqua"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -483,7 +483,7 @@
             Grid.Column="6" 
             Grid.Row="6"
             Background="Aqua"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -494,7 +494,7 @@
             Grid.Column="7" 
             Grid.Row="6"
             Background="LightPink"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -505,7 +505,7 @@
             Grid.Column="8" 
             Grid.Row="6"
             Background="LightPink"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -516,7 +516,7 @@
             Grid.Column="9" 
             Grid.Row="6"
             Background="Coral"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -527,7 +527,7 @@
             Grid.Column="10" 
             Grid.Row="6"
             Background="Yellow"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -538,7 +538,7 @@
             Grid.Column="11" 
             Grid.Row="6"
             Background="YellowGreen"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -549,7 +549,7 @@
             Grid.Column="12" 
             Grid.Row="6"
             Background="YellowGreen"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -561,7 +561,7 @@
             Grid.ColumnSpan="2"
             Grid.Row="6"
             Background="YellowGreen"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
@@ -570,9 +570,10 @@
         <Border
             Name="LeftShift"
             Grid.Column="0" 
+            Grid.ColumnSpan="3"
             Grid.Row="7"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
@@ -580,10 +581,10 @@
         </Border>
         <Border
             Name="Z"
-            Grid.Column="1" 
+            Grid.Column="3" 
             Grid.Row="7"
             Background="Coral"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -591,10 +592,10 @@
         </Border>
         <Border
             Name="X"
-            Grid.Column="2" 
+            Grid.Column="4" 
             Grid.Row="7"
             Background="Yellow"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -602,10 +603,10 @@
         </Border>
         <Border
             Name="C"
-            Grid.Column="3" 
+            Grid.Column="5" 
             Grid.Row="7"
             Background="YellowGreen"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -613,10 +614,10 @@
         </Border>
         <Border
             Name="V"
-            Grid.Column="4" 
+            Grid.Column="6" 
             Grid.Row="7"
             Background="Aqua"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -624,10 +625,10 @@
         </Border>
         <Border
             Name="B"
-            Grid.Column="5" 
+            Grid.Column="7" 
             Grid.Row="7"
             Background="Aqua"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -635,10 +636,10 @@
         </Border>
         <Border
             Name="N"
-            Grid.Column="6" 
+            Grid.Column="8" 
             Grid.Row="7"
             Background="LightPink"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -646,10 +647,10 @@
         </Border>
         <Border
             Name="M"
-            Grid.Column="7" 
+            Grid.Column="9" 
             Grid.Row="7"
             Background="LightPink"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -657,10 +658,10 @@
         </Border>
         <Border
             Name="OemComma"
-            Grid.Column="8" 
+            Grid.Column="10" 
             Grid.Row="7"
             Background="Coral"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -668,10 +669,10 @@
         </Border>
         <Border
             Name="OemPeriod"
-            Grid.Column="9" 
+            Grid.Column= "11" 
             Grid.Row="7"
             Background="Yellow"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -679,10 +680,10 @@
         </Border>
         <Border
             Name="OemQuestion"
-            Grid.Column="10" 
+            Grid.Column="12" 
             Grid.Row="7"
             Background="YellowGreen"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="30"
                    Style="{StaticResource textStyle}"
@@ -690,10 +691,11 @@
         </Border>
         <Border
             Name="RightShift"
-            Grid.Column="11" 
+            Grid.Column="13"
+            Grid.ColumnSpan="2"
             Grid.Row="7"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
@@ -702,9 +704,10 @@
         <Border
             Name="LeftCtrl"
             Grid.Column="0" 
+            Grid.ColumnSpan="2"
             Grid.Row="8"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
@@ -712,20 +715,21 @@
         </Border>
         <Border
             Name="LWin"
-            Grid.Column="1" 
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
             Grid.Row="8"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">win</TextBlock>
         </Border>
         <Border
-            Grid.Column="2" 
+            Grid.Column="4" 
             Grid.Row="8"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
@@ -733,30 +737,32 @@
         </Border>
         <Border
             Name="Space"
-            Grid.Column="3" 
+            Grid.Column="5" 
+            Grid.ColumnSpan="5"
             Grid.Row="8"
             Background="DarkGoldenrod"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">Space</TextBlock>
         </Border>
         <Border
-            Grid.Column="4" 
+            Grid.Column="10" 
             Grid.Row="8"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
                    Grid.Row="4">alt</TextBlock>
         </Border>
         <Border
-            Grid.Column="5" 
+            Grid.Column="11"
+            Grid.ColumnSpan="2"
             Grid.Row="8"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
@@ -764,10 +770,11 @@
         </Border>
         <Border
             Name="RightCtrl"
-            Grid.Column="6" 
+            Grid.Column="13" 
+            Grid.ColumnSpan="2"
             Grid.Row="8"
             Background="DarkGray"
-            CornerRadius="5" Margin="1,0,1,0">
+            CornerRadius="10" Margin="1,0,1,0">
             <TextBlock 
                    FontSize="20"
                    Style="{StaticResource textStyle}"
