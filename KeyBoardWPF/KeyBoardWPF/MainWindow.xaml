@@ -43,6 +43,99 @@
                 6
             </TextBlock>
         </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="3" Grid.Column="7"  BorderBrush="Black" Background="Plum" Name="V7" >
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"> 
+                7
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="3" Grid.Column="8"  BorderBrush="Black" Background="Plum" Name="V8" >
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"> 
+                8
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="3" Grid.Column="9"  BorderBrush="Black" Background="Pink" Name="V9" >
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"> 
+                9
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="3" Grid.Column="10"  BorderBrush="Black" Background="Yellow" Name="V0" >
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"> 
+                0
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="3" Grid.Column="11"  BorderBrush="Black" Background="GreenYellow" Name="Minus" >
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"> 
+                -
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="3" Grid.Column="12"  BorderBrush="Black" Background="GreenYellow" Name="Ravno" >
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"> 
+                =
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="3" Grid.Column="13" Grid.ColumnSpan="14"  BorderBrush="Black" Background="Gray" Name="BackSpace" >
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" > 
+                Backspace
+            </TextBlock>
+        </Border>
+
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "0" Grid.ColumnSpan="2" BorderBrush="Black" Background="Gray" Name="Tab">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">
+                Tab
+            </TextBlock>
+        </Border>
+
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "2" BorderBrush="Black" Background="Pink" Name="q">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                q
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "3" BorderBrush="Black" Background="Yellow" Name="w">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                w
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "4" BorderBrush="Black" Background="GreenYellow" Name="e">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                e
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "5" BorderBrush="Black" Background="LightBlue" Name="r">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                r
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "6" BorderBrush="Black" Background="LightBlue" Name="t">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                t
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "7" BorderBrush="Black" Background="Plum" Name="y">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                y
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "8" BorderBrush="Black" Background="Plum" Name="u">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                u
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "9" BorderBrush="Black" Background="Pink" Name="i">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                i
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "10" BorderBrush="Black" Background="Yellow" Name="o">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                o
+            </TextBlock>
+        </Border>
+        <Border CornerRadius="10" BorderThickness="1" Margin="2" Grid.Row="4" Grid.Column = "11" BorderBrush="Black" Background="GreenYellow" Name="p">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24">
+                p
+            </TextBlock>
+        </Border>
+        
 
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -55,6 +148,7 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
@@ -68,7 +162,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="1.2*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         
         
